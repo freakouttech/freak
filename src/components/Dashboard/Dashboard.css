@@ -1,0 +1,15 @@
+p {
+	font-size: 18px;
+}
+
+.on-the-left {
+	width: 25% !important;
+}
+
+.on-the-right {
+	width: 75% !important;
+}
+
+.no-padding-bottom {
+	padding-bottom: 0px;
+}

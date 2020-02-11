@@ -1,0 +1,53 @@
+#header-wrapper {
+	height: 50px;
+}
+
+.header-logo {
+	width: 10%;
+	float: left;
+}
+
+.no-column-nav {
+	flex-direction: row !important;
+}
+
+@media (max-width: 768px) {
+  	.mobile-header {
+  		display: contents;
+  	}
+  	.header-logo {
+		width: 150px;
+		float: left;
+	}
+}
+
+.bg-light {
+	background-color: #fff !important;
+	box-shadow: 4px 0px 3px 1px #F36F21;
+}
+
+.navbar-brand {
+	color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #F36F21!important;
+}
+
+.dropdown-item {
+	color: #F36F21 !important;
+	text-align: center !important;
+}
+
+@media (min-width: 768px) {
+  
+  	.nav-go-right {
+  	    position: absolute;
+  	    right: 1%;
+  	}
+}
+
+
+.no-auto {
+	width: 100%;
+}

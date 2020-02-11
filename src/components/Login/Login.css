@@ -1,0 +1,13 @@
+.upload-item {
+	display: block;
+}
+
+.add-padding {
+    margin-bottom: 15% !important;
+}
+
+.btn-bezos {
+	color: #F36F21;
+    background-color: #fff;
+    border-color: #F36F21;
+}

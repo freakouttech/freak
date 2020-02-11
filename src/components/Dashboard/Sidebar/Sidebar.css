@@ -1,0 +1,22 @@
+.text-left {
+  text-align: left;
+}
+
+
+
+#Sidebar-Wrapper a {
+  color: #F36F21;
+  text-decoration: none;
+}
+
+.sidebar-nav-link {
+	border-color: none;
+}
+
+@media (max-width: 768px) {
+  	#Sidebar-Wrapper .nav {
+  		flex-wrap: nowrap;
+  		overflow-x: scroll;
+
+  	}
+}

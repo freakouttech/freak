@@ -1,0 +1,12 @@
+{
+  "extends": ["tslint:recommended", "tslint-react"],
+  "rules": {
+    "jsx-no-multiline-js": false,
+    "max-line-length": {
+      "options": [120]
+    }
+  },
+  "linterOptions": {
+    "exclude": ["src/util/emojiList.ts"]
+  }
+}
