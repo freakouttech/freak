@@ -56,12 +56,12 @@ class Login extends React.Component<{}, any> {
       name: "",
       pass: ""
     };
-    window.location.hash = "/bezos/dashboard";
+    window.location.hash = "/lastmile/dashboard";
     // validateAndSignInUser(body, this.props.dispatch);
   }
 
   goRegister = () => {
-    window.location.hash = "/bezos/dashboard";
+    window.location.hash = "/lastmile/dashboard";
   }
 
   handleClear = () => {
@@ -126,7 +126,7 @@ class Login extends React.Component<{}, any> {
                   <div className="card-block text-center">
                     <div>
                       <h2>Sign up</h2>
-                      <button type="button" onClick={this.goRegister} className="btn btn-bezos active mt-3">Register Now!</button>
+                      <button type="button" onClick={this.goRegister} className="btn btn-lastmile active mt-3">Register Now!</button>
                     </div>
                   </div>
                 </div>

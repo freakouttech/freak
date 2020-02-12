@@ -22,24 +22,24 @@ const Header = (props: any) => {
   return (
     <div>
       <Navbar className="no-column-nav" color="light" light expand="md">
-      	<a href="/#/bezos" className="mobile-header">
+      	<a href="/#/lastmile" className="mobile-header">
           <img 
             src="/img/logos/clip.png"
             className="header-logo"
           />
         </a>
-        {/*<NavbarBrand href="/#/bezos">Bezos</NavbarBrand>*/}
+        {/*<NavbarBrand href="/#/lastmile">lastmile</NavbarBrand>*/}
         <NavbarToggler onClick={toggle} />
         <Collapse className="nav-go-right" isOpen={isOpen} navbar>
           <Nav className="no-auto" navbar>
             <NavItem>
-              <NavLink href="/#/bezos/about/">About Us</NavLink>
+              <NavLink href="/#/lastmile/about/">About Us</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#/bezos/thought/">Thought & Work</NavLink>
+              <NavLink href="/#/lastmile/thought/">Thought & Work</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#/bezos/contact/">Contact Us</NavLink>
+              <NavLink href="/#/lastmile/contact/">Contact Us</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
@@ -47,10 +47,10 @@ const Header = (props: any) => {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  <a className="dropdown-item" href="/#/bezos/login/">Log In</a>
+                  <a className="dropdown-item" href="/#/lastmile/login/">Log In</a>
                 </DropdownItem>
                 <DropdownItem>
-                  <a className="dropdown-item" href="/#/bezos/login/" >Sign Up</a>
+                  <a className="dropdown-item" href="/#/lastmile/login/" >Sign Up</a>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

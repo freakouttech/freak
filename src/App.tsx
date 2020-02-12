@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, RouteComponentProps, withRouter } from "react-router-dom";
 import Frontpage from "./components/Frontpage/Frontpage";
-import Bezos from "./components/Bezos/Bezos";
-import Footer from "./components/Bezos/Footer/Footer";
+import LastMile from "./components/LastMile/LastMile";
+import Footer from "./components/LastMile/Footer/Footer";
 import logo from './logo.svg';
 import './App.css';
 // tslint:disable
@@ -20,10 +20,10 @@ class App extends React.Component<{}, any> {
       </>
     );
   }
-  public renderBezos = (): JSX.Element => {
+  public renderLastMile = (): JSX.Element => {
     return (
       <>
-        <Bezos />
+        <LastMile />
       </>
     );
   }
@@ -37,8 +37,8 @@ class App extends React.Component<{}, any> {
             render={this.renderFrontpage}
           />
           <Route
-            path={`/bezos`}
-            render={this.renderBezos}
+            path={`/lastmile`}
+            render={this.renderLastMile}
           />
         </>
       </>

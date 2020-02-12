@@ -59,23 +59,23 @@ class Dashboard extends React.Component<IDashboardProps, any> {
 	      						</CardHeader>
 	      						<CardBody>
 	      							<Switch>
-	      								<Route exact path='/bezos/dashboard/' name='Dashboard' component={Pages} />
-	      							  	<Route exact path='/bezos/dashboard/seller' name='Seller' component={Seller} />
-	      							  	<Route exact path='/bezos/dashboard/warehouse' name='Warehouse' component={Warehouse} />
-	      							  	<Route exact path='/bezos/dashboard/warehouse/arrivals' name='Arrivals' component={Arrivals} />
-	      							  	<Route exact path='/bezos/dashboard/warehouse/orders' name='Orders' component={Orders} />
-	      							  	<Route exact path='/bezos/dashboard/warehouse/fulfilment' name='Fulfilment' component={Fulfilment} />
-	      							  	<Route exact path='/bezos/dashboard/warehouse/inventory' name='Inventory' component={Inventory} />
-	      							  	<Route exact path='/bezos/dashboard/warehouse/layout'  name='Layout' component={Layout} />
-	      							  	<Route exact path='/bezos/dashboard/warehouse/pickers'  name='Pickers' component={Pickers} />
-	      							  	<Route exact path='/bezos/dashboard/seller/customers' name='Customers' component={Customers} />
-	      							  	<Route exact path='/bezos/dashboard/seller/purchases' name='Purchases' component={Purchases} />
-	      							  	<Route exact path='/bezos/dashboard/seller/inventory' name='Inventory' component={Inventory} />
-	      							  	<Route exact path='/bezos/dashboard/seller/settings'  name='Settings' component={Settings} />
-	      							  	<Route exact path='/bezos/dashboard/seller/orders'  name='Orders' component={Orders} />
-	      							  	<Route exact path='/bezos/dashboard/picker'  name='Picker' component={Picker} />
-	      							  	<Route exact path='/bezos/dashboard/picker/scanner'  name='Scanner' component={Scanner} />
-	      							  	<Route exact path='/bezos/dashboard/picker/hook'  name='Scanner' component={Hook} />
+	      								<Route exact path='/lastmile/dashboard/' name='Dashboard' component={Pages} />
+	      							  	<Route exact path='/lastmile/dashboard/seller' name='Seller' component={Seller} />
+	      							  	<Route exact path='/lastmile/dashboard/warehouse' name='Warehouse' component={Warehouse} />
+	      							  	<Route exact path='/lastmile/dashboard/warehouse/arrivals' name='Arrivals' component={Arrivals} />
+	      							  	<Route exact path='/lastmile/dashboard/warehouse/orders' name='Orders' component={Orders} />
+	      							  	<Route exact path='/lastmile/dashboard/warehouse/fulfilment' name='Fulfilment' component={Fulfilment} />
+	      							  	<Route exact path='/lastmile/dashboard/warehouse/inventory' name='Inventory' component={Inventory} />
+	      							  	<Route exact path='/lastmile/dashboard/warehouse/layout'  name='Layout' component={Layout} />
+	      							  	<Route exact path='/lastmile/dashboard/warehouse/pickers'  name='Pickers' component={Pickers} />
+	      							  	<Route exact path='/lastmile/dashboard/seller/customers' name='Customers' component={Customers} />
+	      							  	<Route exact path='/lastmile/dashboard/seller/purchases' name='Purchases' component={Purchases} />
+	      							  	<Route exact path='/lastmile/dashboard/seller/inventory' name='Inventory' component={Inventory} />
+	      							  	<Route exact path='/lastmile/dashboard/seller/settings'  name='Settings' component={Settings} />
+	      							  	<Route exact path='/lastmile/dashboard/seller/orders'  name='Orders' component={Orders} />
+	      							  	<Route exact path='/lastmile/dashboard/picker'  name='Picker' component={Picker} />
+	      							  	<Route exact path='/lastmile/dashboard/picker/scanner'  name='Scanner' component={Scanner} />
+	      							  	<Route exact path='/lastmile/dashboard/picker/hook'  name='Scanner' component={Hook} />
 	      							</Switch>
 	      						</CardBody>
 	      					</Card>

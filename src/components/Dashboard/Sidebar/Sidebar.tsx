@@ -9,7 +9,7 @@ const Sidebar = (props: any) => {
   const [dropdownSellerOpen, setDropdownSellerOpen] = useState(false);
   const toggleSell = () => setDropdownSellerOpen(!dropdownSellerOpen);
   
-  const	activeStateOne = window.location.hash === "#/bezos/dashboard/" ? true : false;
+  const	activeStateOne = window.location.hash === "#/lastmile/dashboard/" ? true : false;
   const	activeStateTwo = window.location.hash.indexOf("warehouse") > -1 ? true : false;
   const	activeStateThree = window.location.hash.indexOf("seller") > -1 ? true : false;
 
@@ -18,7 +18,7 @@ const Sidebar = (props: any) => {
       <Nav tabs>
         <NavItem>
           <NavLink
-          	href="/#/bezos/dashboard/"
+          	href="/#/lastmile/dashboard/"
           	className="nav-link"
           	active={activeStateOne}
           >
@@ -35,7 +35,7 @@ const Sidebar = (props: any) => {
         >
           <DropdownToggle nav caret>
             <a
-            	href="/#/bezos/dashboard/warehouse/"
+            	href="/#/lastmile/dashboard/warehouse/"
             	className="sidebar-nav-link"
             >
             	Warehouse
@@ -43,40 +43,40 @@ const Sidebar = (props: any) => {
           </DropdownToggle>
           <DropdownMenu>
             <DropdownItem
-            	href="/#/bezos/dashboard/warehouse/arrivals"
+            	href="/#/lastmile/dashboard/warehouse/arrivals"
             	className="sidebar-nav-link"
             >
             	Arrivals
             </DropdownItem>
             <DropdownItem
-            	href="/#/bezos/dashboard/warehouse/inventory"
+            	href="/#/lastmile/dashboard/warehouse/inventory"
             	className="sidebar-nav-link"
             >
             	Inventory
             </DropdownItem>
             <DropdownItem
-            	href="/#/bezos/dashboard/warehouse/layout"
+            	href="/#/lastmile/dashboard/warehouse/layout"
             	className="sidebar-nav-link"
             >
             	Layout
             </DropdownItem>
             <DropdownItem
             	tag="a"
-            	href="/#/bezos/dashboard/warehouse/pickers"
+            	href="/#/lastmile/dashboard/warehouse/pickers"
             	className="sidebar-nav-link text-left"
             >
             	Fulfilment
             </DropdownItem>
             <DropdownItem
             	tag="a"
-            	href="/#/bezos/dashboard/warehouse/pickers"
+            	href="/#/lastmile/dashboard/warehouse/pickers"
             	className="sidebar-nav-link text-left"
             >
             	Pickers
             </DropdownItem>
             <DropdownItem
             	tag="a"
-            	href="/#/bezos/dashboard/warehouse/orders"
+            	href="/#/lastmile/dashboard/warehouse/orders"
             	className="sidebar-nav-link text-left"
             >
             	Orders
@@ -96,34 +96,34 @@ const Sidebar = (props: any) => {
           </DropdownToggle>
           <DropdownMenu>
             <DropdownItem
-            	href="/#/bezos/dashboard/seller/inventory"
+            	href="/#/lastmile/dashboard/seller/inventory"
             	className="sidebar-nav-link"
             >
             	Inventory
             </DropdownItem>
             <DropdownItem
             	tag="a"
-            	href="/#/bezos/dashboard/seller/orders"
+            	href="/#/lastmile/dashboard/seller/orders"
             	className="sidebar-nav-link text-left"
             >
             	Orders
             </DropdownItem>
             <DropdownItem
             	tag="a"
-            	href="/#/bezos/dashboard/seller/purchases"
+            	href="/#/lastmile/dashboard/seller/purchases"
             	className="sidebar-nav-link text-left"
             >
             	Purchases
             </DropdownItem>
             <DropdownItem
             	tag="a"
-            	href="/#/bezos/dashboard/seller/customers"
+            	href="/#/lastmile/dashboard/seller/customers"
             	className="sidebar-nav-link text-left"
             >
             	Customers
             </DropdownItem>
             <DropdownItem
-            	href="/#/bezos/dashboard/seller/settings"
+            	href="/#/lastmile/dashboard/seller/settings"
             	className="sidebar-nav-link"
             >
             	Settings
@@ -131,13 +131,13 @@ const Sidebar = (props: any) => {
           </DropdownMenu>
         </Dropdown>
         <NavItem>
-          <NavLink href="/#/bezos/dashboard/orders">Customers</NavLink>
+          <NavLink href="/#/lastmile/dashboard/orders">Customers</NavLink>
         </NavItem>
         <NavItem>
           <NavLink disabled href="#">Settings</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/#/bezos/dashboard/picker">Picker</NavLink>
+          <NavLink href="/#/lastmile/dashboard/picker">Picker</NavLink>
         </NavItem>
       </Nav>
     </div>

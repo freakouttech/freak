@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 
-app.get(`/bezos*`, (req, res) => {
+app.get(`/lastmile*`, (req, res) => {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 

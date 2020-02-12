@@ -7,7 +7,7 @@ const rootPersistConfig = {
   key: "root",
   storage,
   transforms: [],
-  whitelist: ["general", "bezos"],
+  whitelist: ["general", "lastmile"],
 };
 
 const persistedReducer = persistReducer(rootPersistConfig, rootReducer);

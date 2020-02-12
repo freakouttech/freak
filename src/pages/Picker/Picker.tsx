@@ -13,9 +13,9 @@ const Picker = (props: any) => {
 	  	<Container id="Picker">
 	  		<Row>
 	  			<div className="picker-button-holder">
-	  				<Button className="picker-links"><a href="/#/bezos/dashboard/picker/scanner">Log Product</a></Button>
-	  				<Button className="picker-links"><a href="/#/bezos/dashboard/picker/hook">Pick Product</a></Button>
-	  				<Button className="picker-links"><a href="/#/bezos/dashboard/picker/scanner">Product Info</a></Button>
+	  				<Button className="picker-links"><a href="/#/lastmile/dashboard/picker/scanner">Log Product</a></Button>
+	  				<Button className="picker-links"><a href="/#/lastmile/dashboard/picker/hook">Pick Product</a></Button>
+	  				<Button className="picker-links"><a href="/#/lastmile/dashboard/picker/scanner">Product Info</a></Button>
 	  			</div>
 	  		</Row>
 	  	</Container>
